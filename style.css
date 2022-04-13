@@ -1,0 +1,26 @@
+body{
+    background-color: #000;
+    font-family: Helvetica;
+}
+
+#navbar{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    min-width: 100%;
+}
+
+#navbar p{
+    color: #fff5ee;
+    text-decoration: underline;
+    justify-content: flex-end;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#logo{
+    margin-right: auto;
+    height: 50px;
+    text-align: left;
+}
+
