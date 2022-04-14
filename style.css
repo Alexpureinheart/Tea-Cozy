@@ -40,8 +40,8 @@ body{
 #our_mission .center_container{
     background-color: #000;
     width: 1200px;
-    min-height: 100px;
-    max-height: 400px;
+    min-height: 50px;
+    max-height: 500px;
     vertical-align: center;
     flex-grow: 2;
 }
@@ -55,11 +55,15 @@ body{
 #our_mission .center_container h4{
     margin-left: 10px;
     font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px
 }
 
 #our_mission .center_text_title{
+    margin-top: 5px;
+    margin-bottom: 10px;
     display: block;
-    margin-bottom: 1px;
+    
 }
 
 
