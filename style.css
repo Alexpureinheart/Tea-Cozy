@@ -33,7 +33,7 @@ body{
     background-repeat: no-repeat;
     display: flex;
     background-position: center;
-    align-items: center;
+    align-items: center;   
 }
 
 
@@ -66,6 +66,12 @@ body{
     
 }
 
+
+
+#totm img{
+    height: 200px;
+    width: 300px;
+}
 
 
 
