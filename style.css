@@ -7,10 +7,15 @@ body{
 }
 
 #navbar{
+    background-color: #000;
+    position: fixed;
+    right: 0px;
+    top: 0px;
     height: 69px;
     border-bottom: 1px solid seashell;
     display: inline-flex;
     min-width: 100%;
+    text-align: left;
 }
 
 #navbar p{
@@ -18,12 +23,16 @@ body{
     justify-content: flex-end;
     margin-left: 10px;
     font-size: 18px;
+    padding-right: 20px;
+    padding-top: 5px;
 }
 
 #navbar img{
     margin-right: auto;
     height: 50px;
-    text-align: left;
+    justify-content: left;
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 
@@ -102,22 +111,26 @@ body{
 
 #locations{
     text-align: center;
-    height: 500px;
+    min-height: 500px;
+    max-block-size: 100%;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     background-repeat: no-repeat;
-    background-size: 1400px;
+    
     display: flex;
     background-position: center; 
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-grow: 2;
 }
 
 #locations .location_container {
     display: inline-flex;
     padding-top: 50px;
-    height: 200px;
+    min-height: 200px;
+    max-height: 1000px;
     flex-wrap: wrap;
     justify-content: center;
+    position: absolute;
+    padding-top: 80px;
 }
 
 
@@ -128,21 +141,18 @@ body{
     margin-right: 40px;
     font-size: 18.72px;
     opacity: 1;
-    position: relative;
-    top: 30px;
     right: 55px;
+    margin-bottom: 10px;
 }
 
 #locations h1{
-    height: 50px;
-    position: relative;
-    bottom: 50px;
-    left: 515px;
-    display: flex;
+   text-align: center;
 }
 
 footer{
-    height: 200px;
+    display: flex-box;
+    flex-wrap: wrap;
+    max-height: 100px;
 }
 
 footer p{
